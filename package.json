@@ -1,10 +1,13 @@
 {
   "name": "dupe-it",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
     "dupe-it": "index.js"
   },
   "description": "Tool to avoid CORS issues during development using reverse-proxy technique.",
+  "keywords": [
+    "proxy", "cors", "server"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
