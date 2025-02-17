@@ -1,6 +1,6 @@
 {
   "name": "dupe-it",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin": {
     "dupe-it": "index.js"
   },
