@@ -5,7 +5,10 @@ import httpProxy from 'http-proxy';
 export function startApp(config: {port: number, target: string}) {
     // Initiate Express and create a router.
     const app = express();
-    app.use(cors())
+    app.use(cors({
+        origin: true,
+        credentials: true 
+    }))
     const router = express.Router();
     // Create a proxy server.
     const proxy = httpProxy.createProxyServer();
